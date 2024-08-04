@@ -315,6 +315,10 @@ toggleAction.onKeyDown(() => {
 	comRPC("GET", "playPause");
 	setTimeout(setPlaybackStatus, 500);
 });
+albumArtAction.onKeyDown(() => {
+	comRPC("GET", "playPause");
+	setTimeout(setPlaybackStatus, 500);
+});
 skipAction.onKeyDown(() => {
 	comRPC("GET", "next");
 });
