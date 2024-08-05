@@ -148,6 +148,9 @@ async function setData(playbackInfo) {
         window.contexts.songNameAction.forEach(function (context) {
 		    setTitle(context, playbackInfo.data?.name, 0)
         });
+		window.contexts.albumArtAction.forEach(function (context) {
+		    setTitle(context, playbackInfo.data?.name, 0)
+        });
 
 		// Set like/dislike icons depending on current song rating.
 		comRPC("GET", `rating/${playbackInfo.data?.playParams?.kind}/${playbackInfo.data?.playParams?.id}`).then((ratingData) => {
