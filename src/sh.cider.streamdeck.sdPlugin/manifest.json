@@ -6,7 +6,7 @@
 	"Name": "CiderDeck",
 	"Icon": "actions/playback/assets/icon",
 	"URL": "https://cider.sh",
-	"Version": "1.1.0",
+	"Version": "1.1.1",
 	"Software": {
 		"MinimumVersion": "5.0"
 	},
